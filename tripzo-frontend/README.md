@@ -22,7 +22,7 @@ VITE_API_BASE_URL=http://localhost:5000/api
 
 - Start it with `node server.js` (or your usual script) — it auto-creates a
   MySQL `tripzo_db` connection via `src/config/database.js`, and **auto-seeds
-  an admin account** on first boot: `admin@tripzo.com` / `Admin@123` (from
+  an admin account** on first boot (login credentials come from
   `ADMIN_EMAIL` / `ADMIN_PASSWORD` in the backend's `.env`).
 - Uploaded files (hostel photos, CNIC/bank documents) are saved to disk and
   served statically at `http://localhost:5000/uploads/...`. This frontend's
